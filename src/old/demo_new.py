@@ -9,51 +9,16 @@ simulation = Simulation()
     # simulation.particles
     # simulation.ahf_data
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Print hubble constant
 print(simulation.h)
 # Print the x pos of every star in the simulation
 print(simulation.particles['star']['position'][:,0])
-
-
-
-
-
 
 # Look at how the axis names are formated
 # Will modify so units can be easily specified
 x = [1, 2, 3, 4, 5]
 y = [2, 4, 6, 8, 10]
 graph(x,y, "Force vs Mass")
-
-
-
-
 
 
 # This function returns the coordinates, velocity, mass, and age of each star in a galaxy
@@ -67,11 +32,6 @@ graph(
     showLine=False
 )
 
-
-
-
-
-
 # This function matches an input string with a column name
 name = get_field_name(simulation.ahf_data, 'substruct')
 print(f'The name is: {name}')
@@ -79,11 +39,6 @@ print(f'The name is: {name}')
 # Easy way to get access to AHF column
 column = get_field(simulation.ahf_data, 'substruct')
 print(column)
-
-
-
-
-
 
 # Let's graph random stuff for fun
 data = simulation.ahf_data

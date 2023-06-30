@@ -10,5 +10,4 @@ Find 1 or 2 things that interest me in 2 through 3.1 and prepare to give a prese
 
 
 
-Add filter function that takes either a list or list of lists to filter
-    To clean up getStarInfo in Simulation class
+optiom to filter at .99 threshold when reading AHF file. default is true/
