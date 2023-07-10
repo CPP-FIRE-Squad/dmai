@@ -1,13 +1,5 @@
 Make a script to set up all the directories
     powershell and git bash were the tools others used on windows
 
+optiom to filter at .99 threshold when reading AHF file. default is true
 
-Find 1 or 2 things that interest me in 2 through 3.1 and prepare to give a presentation
-    Ideas:
-        dark matter and halos
-        history of galaxy simulations (FIRE vs Elvis vs Phat Elvis)
-        condition stars are formed
-
-
-
-optiom to filter at .99 threshold when reading AHF file. default is true/
