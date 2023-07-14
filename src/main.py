@@ -7,6 +7,7 @@ sim = Simulation(
     ahf_path = "../data/snapshot_600.z0.000.AHF_"
 )
 
+
 # Print hubble constant
 print(sim.h) 
 # Print all particles you specified in the line with "Take Note"
