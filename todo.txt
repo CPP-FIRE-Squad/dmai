@@ -8,10 +8,15 @@
     iii) add vim cheat sheet and link to python cheat sheet on geeks for geeks
     iiii) add tutorial on how to run gizmo_analysis and stellarutil on super computer
     v) make a glossary section at the end for tech terms since some people do not know what a terminal is
+    vi) make a section called "Bonus Scripts" that includes fastssh.Expand
+        a) remember to "chmod +x fastssh.exp"
+    vii) make a sample .bashrc and or .zshrc file
 
 4) Finally learn github commands for the terminal and get my repo set up on the super computer.
 
 5) Prepare for a Python boot camp Wednesday after the group meeting!!!
+
+6) Run the steps to go from hd5f to halo file on supercomputer
 
 
 
