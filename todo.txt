@@ -9,7 +9,9 @@
     iiii) add tutorial on how to run gizmo_analysis and stellarutil on super computer
     v) make a glossary section at the end for tech terms since some people do not know what a terminal is
 
+4) Finally learn github commands for the terminal and get my repo set up on the super computer.
 
+5) Prepare for a Python boot camp Wednesday after the group meeting!!!
 
 
 
