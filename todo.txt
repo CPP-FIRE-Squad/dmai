@@ -1,5 +1,16 @@
-Make a script to set up all the directories
-    powershell and git bash were the tools others used on windows
+1) Add the stellarutil create function
 
-optiom to filter at .99 threshold when reading AHF file. default is true
+2) Document stellarutil functions in a google Document
+
+3) Expand the "Simululation Set Up" Google doc
+    i) Make it called something like "CPP FIRE Squad Tech Bible"
+    ii) add table of contents and reorganize exisitng content
+    iii) add vim cheat sheet and link to python cheat sheet on geeks for geeks
+    iiii) add tutorial on how to run gizmo_analysis and stellarutil on super computer
+    v) make a glossary section at the end for tech terms since some people do not know what a terminal is
+
+
+
+
+
 
