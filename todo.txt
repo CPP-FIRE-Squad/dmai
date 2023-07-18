@@ -1,23 +1,23 @@
-1) Add the stellarutil create function
+Document stellarutil functions in a google Document
 
-2) Document stellarutil functions in a google Document
-
-3) Expand the "Simululation Set Up" Google doc
+Expand the "Simululation Set Up" Google doc
     i) Make it called something like "CPP FIRE Squad Tech Bible"
     ii) add table of contents and reorganize exisitng content
     iii) add vim cheat sheet and link to python cheat sheet on geeks for geeks
-    iiii) add tutorial on how to run gizmo_analysis and stellarutil on super computer
+    iv) add tutorial on how to run gizmo_analysis and stellarutil on super computer
     v) make a glossary section at the end for tech terms since some people do not know what a terminal is
-    vi) make a section called "Bonus Scripts" that includes fastssh.Expand
+    vi) make a section called "Bonus Scripts" that includes fastssh.exp
         a) remember to "chmod +x fastssh.exp"
     vii) make a sample .bashrc and or .zshrc file
 
-4) Finally learn github commands for the terminal and get my repo set up on the super computer.
+Finally learn github commands for the terminal and get my repo set up on the super computer.
 
-5) Prepare for a Python boot camp Wednesday after the group meeting!!!
+Prepare for a Python boot camp Wednesday after the group meeting!!!
 
-6) Run the steps to go from hd5f to halo file on supercomputer
+Run the steps to go from hd5f to halo file on supercomputer
+
+Have snopshot values in get_particles and get_hubble_constant be a Parameters
 
 
-
+Add Alisar's iterative percentage restriction
 

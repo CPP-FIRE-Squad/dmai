@@ -8,13 +8,14 @@ particles = gizmo.io.Read.read_snapshots(
         species=['star'], # Take note
         snapshot_value_kind='index',
         snapshot_values=600
-    )
+)
+
 h = gizmo.io.Read.read_header(
         simulation_directory = '../data',
         snapshot_directory = '../data',
         snapshot_value_kind = 'index',
         snapshot_value = 600
-    )
+)
 
 h = h['hubble']
 data = ascii.read("../data/snapshot_600.z0.000.AHF_halos")
