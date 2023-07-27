@@ -18,6 +18,7 @@ h = gizmo.io.Read.read_header(
 )
 
 h = h['hubble']
+
 data = ascii.read("../data/snapshot_600.z0.000.AHF_halos")
 data_filtered = data[(data.field('fMhires(38)') > 0.99)]
 data = data_filtered

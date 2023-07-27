@@ -10,14 +10,7 @@ Expand the "Simululation Set Up" Google doc
         a) remember to "chmod +x fastssh.exp"
     vii) make a sample .bashrc and or .zshrc file
 
-Finally learn github commands for the terminal and get my repo set up on the super computer.
-
-Prepare for a Python boot camp Wednesday after the group meeting!!!
-
 Run the steps to go from hd5f to halo file on supercomputer
 
 Have snopshot values in get_particles and get_hubble_constant be a Parameters
-
-
-Add Alisar's iterative percentage restriction
 
