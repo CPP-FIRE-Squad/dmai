@@ -1,41 +1,29 @@
+import os
+import sys
+
+# Append the parent directory of 'src' to sys.path to enable relative imports
+# current_dir = os.path.dirname(os.path.abspath(__file__))
+# print(current_dir)
+# parent_dir = os.path.dirname(current_dir)
+# print(parent_dir)
+# sys.path.append(parent_dir)
+
+# Or use the command
+        # set PYTHONPATH=/Users/cameronross/projs/galaxy_research/CameronRoss/modules
+        # export PYTHONPATH=/Users/cameronross/projs/galaxy_research/CameronRoss/modules
+
+
 import gizmo_analysis as gizmo
 
 # Original way to do this
-particles = gizmo.io.Read.read_snapshots(
-        simulation_directory = '../data/subdir', snapshot_directory = '.',
-        species=['star'], snapshot_value_kind='index', snapshot_values=600)
+# particles = gizmo.io.Read.read_snapshots(
+#         simulation_directory = '../data/subdir', snapshot_directory = '.',
+#         species=['star'], snapshot_value_kind='index', snapshot_values=600)
 
-h = gizmo.io.Read.read_header(
-        simulation_directory = '../data/subdir', snapshot_directory = '.', 
-        snapshot_value_kind = 'index', snapshot_value = 600)
+# h = gizmo.io.Read.read_header(
+#         simulation_directory = '../data/subdir', snapshot_directory = '.', 
+#         snapshot_value_kind = 'index', snapshot_value = 600)
 
-
-
-def get_length(string):
-    '''
-    This method gets the length of a string.
-
-    Parameters:
-    -----------
-        string : string
-        	The string to calculate
-    '''
-    return len(string)
-
-def foo():
-    '''
-    This is a dummy method.
-    '''
-    return -1
-
-
-
-
-
-
-# h = h['hubble']
-
-# print(h)
 
 
 from stellarutil.simulation import Simulation, get_field, get_field_name
@@ -50,7 +38,7 @@ from stellarutil.simulation import Simulation, get_field, get_field_name
 # )
 
 sim = Simulation()
-# print(sim.h)
+print(sim.h)
 
 
 # # Print all particles you specified to keep track of
@@ -62,7 +50,7 @@ sim = Simulation()
 # # Print the n_star(64) column in the AHF file 
 # print(sim.get_field('nstar')[0])
 # Get a list of stars in the dark matter halo at index 0
-stars = sim.get_stars_in_halo(0, 10)
+# stars = sim.get_stars_in_halo(0, 10)
 # print(f"Number of stars is {len(stars)}")
 # print(stars[0].x)
 
