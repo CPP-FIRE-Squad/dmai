@@ -1,4 +1,3 @@
-Document stellarutil functions in a google Document
 
 Expand the "Simululation Set Up" Google doc
     i) Make it called something like "CPP FIRE Squad Tech Bible"
@@ -14,3 +13,20 @@ Run the steps to go from hd5f to halo file on supercomputer
 
 Have snopshot values in get_particles and get_hubble_constant be a Parameters
 
+
+
+Maske sure to run AHF_slurm in login and not idev
+
+
+Look at running updated version .AHF
+Have option to specify bounds
+Make scripts github directory
+Add path to gizmo_analysis option in Simulation constructor
+    Add the option to create a directory
+    Add the option to download gizmo_analysis and utilities here if it does not exist
+
+
+
+Steps when moving files
+    copy (cp) files over from sratch to work
+    run the AHF code and do all the conversations
