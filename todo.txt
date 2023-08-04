@@ -1,31 +1,18 @@
 
-Expand the "Simululation Set Up" Google doc
-    i) Make it called something like "CPP FIRE Squad Tech Bible"
-    ii) add table of contents and reorganize exisitng content
-    iii) add vim cheat sheet and link to python cheat sheet on geeks for geeks
-    iv) add tutorial on how to run gizmo_analysis and stellarutil on super computer
-    v) make a glossary section at the end for tech terms since some people do not know what a terminal is
-    vi) make a section called "Bonus Scripts" that includes fastssh.exp
-        a) remember to "chmod +x fastssh.exp"
-    vii) make a sample .bashrc and or .zshrc file
+Add a python section to Tech Bible
+    talk about setup, installation, and pip3 install/uninstall, list, etc.
+
 
 Run the steps to go from hd5f to halo file on supercomputer
 
-Have snopshot values in get_particles and get_hubble_constant be a Parameters
-
-
 
 Maske sure to run AHF_slurm in login and not idev
-
-
 Look at running updated version .AHF
 Have option to specify bounds
 Make scripts github directory
 Add path to gizmo_analysis option in Simulation constructor
     Add the option to create a directory
     Add the option to download gizmo_analysis and utilities here if it does not exist
-
-
 
 Steps when moving files
     copy (cp) files over from sratch to work

@@ -1,69 +1,45 @@
-import os
-import sys
-
-# Append the parent directory of 'src' to sys.path to enable relative imports
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir) + '/modules'
-print(parent_dir)
-sys.path.append(parent_dir)
+# import gizmo_analysis as gizmo
 
 
-# print(current_dir)
+# particles = gizmo.io.Read.read_snapshots(
+#         simulation_directory = 'm10r_res250md', snapshot_directory = 'output',
+#         species=['star'], snapshot_value_kind='index', snapshot_values=600)
 
-# Or use the command
-        # set PYTHONPATH=/Users/cameronross/projs/galaxy_research/CameronRoss/modules
-        # export PYTHONPATH=/Users/cameronross/projs/galaxy_research/CameronRoss/modules
+# h = gizmo.io.Read.read_header(
+#         simulation_directory = '..data2/m10r_res250md', snapshot_directory = 'output', 
+#         snapshot_value_kind = 'index', snapshot_value = 600)
+
+# h = h['hubble']
+# print(h)
 
 
-import gizmo_analysis as gizmo
+
+# from stellarutil.simulation import Simulation, get_field, get_field_name
+# sim = Simulation()
+# print(sim.h)
+# # simulation_directory = '/Users/cameronross/projs/galaxy_research/CameronRoss/data'
+# # sim = Simulation(
+# #     simulation_directory = '../data/old',
+# #     snapshot_directory = '../data/old',
+# #     ahf_directory = "../data/snapshot_600.z0.000.AHF_halos",
+# #     snapshot_value = 600,
+# #     snapshot_values = [0,1,2,3,4,5,6,7]
+# # )
 
 
-particles = gizmo.io.Read.read_snapshots(
-        simulation_directory = '../data', snapshot_directory = '.',
-        species=['star'], snapshot_value_kind='index', snapshot_values=600)
-
-h = gizmo.io.Read.read_header(
-        simulation_directory = '../data', snapshot_directory = '.', 
-        snapshot_value_kind = 'index', snapshot_value = 600)
-
-h = h['hubble']
-print(h)
-
-from stellarutil.simulation import Simulation, get_field, get_field_name
 from stellarutil.simulation import Simulation
-sim = Simulation()
-print(sim.h)
-# simulation_directory = '/Users/cameronross/projs/galaxy_research/CameronRoss/data'
-# sim = Simulation(
-#     simulation_directory = '../data/old',
-#     snapshot_directory = '../data/old',
-#     ahf_directory = "../data/snapshot_600.z0.000.AHF_halos",
-#     snapshot_value = 600,
-#     snapshot_values = [0,1,2,3,4,5,6,7]
-# )
-
+from stellarutil.graph import graph
 sim = Simulation()
 print(sim.h)
 
+# Mvir vs Mstar
+graph(sim.get_field('Mvir'), sim.get_field('Mstar'), "Mvir vs Mstar")
 
-# # Print all particles you specified to keep track of
-print(sim.particles.keys())
-print(sim.particles['star'].keys()) 
-print(sim.get_field('nstar'))
-# # Print properties that can be accessed for stars 
-print(sim.particles['star'].keys()) 
-# # # Print the x pos of every star in the simulation
-# print(sim.particles['star']['position'][:,0])
-# # Print the n_star(64) column in the AHF file 
-print(sim.get_field('nstar')[0])
-# Get a list of stars in the dark matter halo at index 0
-stars = sim.get_stars_in_halo(0, 10)
-print(f"Number of stars is {len(stars)}")
-print(stars[0].x)
+# x vs y of all stars and color code by scale factor
 
-# sum = 0
-# for star in stars:
-#     sum += star.m
+# 2d histogram of mass of stars
 
-# print(sum)
-# print(sim.get_field('mstar')[0])
+# graph two galaxies on the same 3d plot next to each other
+
+
+

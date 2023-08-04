@@ -24,4 +24,4 @@ for file in files:
         command = f"python gh52gb3.py {input_path}/{file} {output_path}/{os.path.splitext(file)[0]}"
         # Execute the command
         print(f"Executing: '{command}'")
-        # os.system(command)
+        os.system(command)
