@@ -3,17 +3,9 @@ Add a python section to Tech Bible
     talk about setup, installation, and pip3 install/uninstall, list, etc.
 
 
-Run the steps to go from hd5f to halo file on supercomputer
-
-
-Maske sure to run AHF_slurm in login and not idev
 Look at running updated version .AHF
-Have option to specify bounds
-Make scripts github directory
+
 Add path to gizmo_analysis option in Simulation constructor
     Add the option to create a directory
     Add the option to download gizmo_analysis and utilities here if it does not exist
 
-Steps when moving files
-    copy (cp) files over from sratch to work
-    run the AHF code and do all the conversations
