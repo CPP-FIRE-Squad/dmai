@@ -9,3 +9,11 @@ Add path to gizmo_analysis option in Simulation constructor
     Add the option to create a directory
     Add the option to download gizmo_analysis and utilities here if it does not exist
 
+Add star 3d and 2d distance
+
+Add more filter techniques:
+    restrict_percentage: get this from get_stars_in_halo
+        maybe keep the default or take it out - leaning towards taking it out for consistency
+    restrict_slice: look at screenshot for pseudo code and the sample graph
+    restrict_age: restrict all stars by a given age value
+        
