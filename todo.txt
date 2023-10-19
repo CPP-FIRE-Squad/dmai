@@ -17,3 +17,12 @@ Add more filter techniques:
     restrict_slice: look at screenshot for pseudo code and the sample graph
     restrict_age: restrict all stars by a given age value
         
+
+Halo object?
+
+Catch up on documentation
+
+update help() and its functionality
+
+
+automatically divide by h for certain fields?
