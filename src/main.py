@@ -1,29 +1,28 @@
-from stellarutil.simulation import Simulation
-from stellarutil.graph import graph, star_scatter_plot, histogram, stars_scatter_plot
+from stellarutil import Simulation
 
-m10r = Simulation(simulation_name='m10v_res030md', species=['star'])
-m10r = Simulation('m10v_res030md', species=['star'])
-# sim = Simulation(
-#     simulation_directory = '../data/m10r_res250md',
-#     snapshot_directory='output',
-#     ahf_path='../data/m10r_res250md/snapshot_600.AHF_halos',
-# )
+# These are the two ways to access a simulation
+# 1) via name - must adhere to folder structure
+m10v_res250 = Simulation('m10v_res250md', species=['star']) 
+# 2) or you can specify the path of each item manually if you do not want to use the proper structure
+m10v_res250 = Simulation(
+    simulation_directory = '../data/m10v_res250md',
+    snapshot_directory='output',
+    ahf_path='../data/m10v_res250md/snapshot_600.z0.000.AHF_halos',
+)
 
 # Print hubble constant
-print(m10r.h)
+print(m10v_res250.h)
+# Print particle fields
+print(m10v_res250.particles.keys())
+print(m10v_res250.particles['star'].keys())
 # Print field
-print(m10r.get_field('nstar'))
-
-# # Mvir vs Mstar
-graph(m10r.get_field('Mvir'), m10r.get_field('Mstar'), "Mvir vs Mstar", showLine=False, logx=True, logy=True)
-# position of all stars and color code by scale factor
-halo = m10r.get_halo()
+print(m10v_res250.get_field('nstar'))
+# Get a halo and print its mass
+halo = m10v_res250.get_halo()
+print(halo.mass)
+# Get a list of ages and x pos of each star in the halo
 ages = [star.a for star in halo.stars]
-star_scatter_plot(halo.stars, ages)
-# star mass histogram
-masses = [star.m for star in halo.stars]
-histogram(masses, bins = 10, title='Mass Distribution', x_label='Mass') 
-# graph two galaxies on the same 3d plot next to each other
-halo2 = m10r.get_halo(1)
-m10r.center_on(halo2, 0)
-stars_scatter_plot(halo.stars, halo2.stars)
+# Center the halo on the halo at index 1
+halo.center_on(2)
+# Filter all stars in the halo at 15%
+halo.restrict_percentage(15)
