@@ -1,7 +1,7 @@
 from stellarutil.simulation import Simulation
 from stellarutil.graph import graph, star_scatter_plot, histogram, stars_scatter_plot
 
-m10r = Simulation('m10r_res250md', species=['star'])
+m10r = Simulation('m10v_res030md', species=['star'])
 # sim = Simulation(
 #     simulation_directory = '../data/m10r_res250md',
 #     snapshot_directory='output',
