@@ -1,0 +1,3 @@
+Do exactly what I did now, but color code based on if it is from the central halo
+
+Graph all stuff again not including the halo at index 0
