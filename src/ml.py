@@ -1,10 +1,8 @@
 import matplotlib.pyplot as plt, numpy as np, joblib, os
-from sklearn.neighbors import KNeighborsRegressor 
 from sklearn.model_selection import train_test_split 
 from stellarutil import Simulation, Star 
 from concurrent.futures import ThreadPoolExecutor
 from IPython.display import clear_output
-
 
 def get_sim_data(SIMULATION, HALO_START=0, HALO_END=100):
     X = []
@@ -48,18 +46,26 @@ def get_sim_data(SIMULATION, HALO_START=0, HALO_END=100):
         
         print(f'Finished processing halo {i+1}/{HALO_END}')
     
-    return X, Y
+    return np.array(X), np.array(Y)
 
-def get_saved_data(path='data.pkl'):
-    X_BV = joblib.load('../data/pickle/big_victor/big_victor_h100_X.pkl')
-    Y_BV = joblib.load('../data/pickle/big_victor/big_victor_h100_Y.pkl')
-    X_LV = joblib.load('../data/pickle/little_victor/little_victor_h100_X.pkl')
-    Y_LV = joblib.load('../data/pickle/little_victor/little_victor_h100_Y.pkl')
-    X_LR = joblib.load('../data/pickle/little_romeo/little_romeo_h100_X.pkl')
-    Y_LR = joblib.load('../data/pickle/little_romeo/little_romeo_h100_Y.pkl')
-    X = X_BV
-    Y = Y_BV
-    return X, Y
+def get_saved_data():
+    X_BV = joblib.load('../data/pickle/big_victor/X_BV_0_to_100.pkl')
+    Y_BV = joblib.load('../data/pickle/big_victor/Y_BV_0_to_100.pkl')
+    X_LV = joblib.load('../data/pickle/little_victor/X_LV_0_to_100.pkl')
+    Y_LV = joblib.load('../data/pickle/little_victor/Y_LV_0_to_100.pkl')
+    X_LR = joblib.load('../data/pickle/little_romeo/X_LR_0_to_100.pkl')
+    Y_LR = joblib.load('../data/pickle/little_romeo/Y_LR_0_to_100.pkl')
+    X = X_BV + X_LV + X_LR
+    Y = Y_BV + Y_LV + Y_LR
+    return np.array(X), np.array(Y)
+
+def split_data(X, Y, test_size=0.2, random_state=42):
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=test_size, random_state=random_state)
+    X_TRAIN = np.array(X_train) 
+    Y_TRAIN = np.array(Y_train)
+    X_TEST = np.array(X_test)
+    Y_TEST = np.array(Y_test)
+    return X_TRAIN, X_TEST, Y_TRAIN, Y_TEST
 
 def graph(x,y, title, r):
     x = np.array(x)
@@ -81,41 +87,14 @@ def graph(x,y, title, r):
     # Show the plot
     plt.show()
 
+def accuracy(Y_TEST, Y_PRED):
+    # Find the percent difference
+    sum = 0
+    for i in range(len(Y_PRED)):
+        a = Y_PRED[i]
+        b = Y_TEST[i]
+        p = round(100 * ((2 * abs(a-b)) / (a+b)), 3)
+        sum = sum + p
+    # Accuracy is 100 - average percent difference
+    return round(100 - (sum / len(Y_PRED)), 3)
 
-class Model:
-
-    def __init__(self, X, Y, NEIGHBORS=5, test_size=0.2, random_state=42):
-        # Split the data into training and testing data
-        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=test_size, random_state=random_state)
-        self.X_TRAIN = np.array(X_train) 
-        self.Y_TRAIN = np.array(Y_train)
-        self.X_TEST = np.array(X_test)
-        self.Y_TEST = np.array(Y_test)
-        # Create the KNN Regressor and train
-        knn_regressor = KNeighborsRegressor(n_neighbors=NEIGHBORS)
-        knn_regressor.fit(X_train, Y_train)
-        # Save the model
-        self.model = knn_regressor
-
-    def predict(self):
-        self.Y_PRED = np.array(self.model.predict(self.X_TEST))
-    
-    def accuracy(self):
-        # Find the percent difference
-        sum = 0
-        for i in range(len(self.Y_PRED)):
-            a = self.Y_PRED[i]
-            b = self.Y_TEST[i]
-            p = round(100 * ((2 * abs(a-b)) / (a+b)), 3)
-            sum = sum + p
-        # Accuracy is 100 - average percent difference
-        return round(100 - (sum / len(self.Y_PRED)), 3)
-    
-    def results(self):
-        graph(self.Y_TEST, self.Y_PRED, "Predicted vs Actual Dark Matter Mass", self.X_TEST[:,4])
-        print(f"Average Accuracy: {self.accuracy()}%")
-        print(f"Total Stars: { len(self.X_TEST) + len(self.X_TRAIN)}")
-        print(f"Predicted Stars: { len(self.Y_PRED)}")
-
-    def save(self, path='model.pkl'):
-        joblib.dump(self.model, path)
