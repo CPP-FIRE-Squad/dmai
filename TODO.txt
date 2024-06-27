@@ -1,23 +1,14 @@
-luminosity = sim.particles['star']['mass'] ???
-
-After I run tests, what is the goal of the incorporating the Jeans Equation?
-
-
-cd /scratch/projects/GalaxiesOnFIRE/core_no_md
-Look for these 3 sims and see if any output exist at:
-    m12m_r7100
-    m12i_r7100
-    m12f_r7100
-
-Look into ways to transfer huge files from user to user
-
-Work with Austin to try and run all these simulations in rockstar
-
-
-
 New features
     Replace 3DR w/ 2DR
     Capture 1 kpc sphere of all the masses around a star(gas, star, dm)
-    Get the velocity dispersion of all the stars within the sphere whose radius is equal to the stars radius
-        standard deviation of vz fopr every star in the sphere
-        only train with stars who have more than 10 stars in the sphere
+
+
+Have stellar be an official pip3 repo
+
+Ask Austin about rockstar
+    cd /scratch/projects/GalaxiesOnFIRE/metal_diffusion/m12i_r880/halo/rockstar_dm/catalog_hdf5
+    look at galaxies at index 1+, make sure they are not too close to Milyway
+        ignore index 0, look at all galaxies bigger than 10^9
+
+
+all other galaxies to 3d scattler plot    
