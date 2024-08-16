@@ -1,0 +1,351 @@
+---------------  m10r_res250md @ 0.1 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.1: 0.13 kpc at star 106 with mass 20578.29 M☉
+Predicted Total Mass: 7.57e+06 M☉
+
+Star Masses by Hand:		2.06e+04 M☉
+DM Masses by Hand:		2.51e+06 M☉
+Gas Masses by Hand:		1.48e+05 M☉
+Total Mass by Hand:		2.68e+06 M☉
+Percent Difference:		96%
+
+
+
+---------------  m10r_res250md @ 0.2 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.2: 0.2 kpc at star 231 with mass 41011.0 M☉
+Predicted Total Mass: 1.13e+07 M☉
+
+Star Masses by Hand:		4.10e+04 M☉
+DM Masses by Hand:		6.39e+06 M☉
+Gas Masses by Hand:		3.09e+05 M☉
+Total Mass by Hand:		6.74e+06 M☉
+Percent Difference:		51%
+
+
+
+---------------  m10r_res250md @ 0.3 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.3: 0.25 kpc at star 357 with mass 61612.51 M☉
+Predicted Total Mass: 1.50e+07 M☉
+
+Star Masses by Hand:		6.16e+04 M☉
+DM Masses by Hand:		1.08e+07 M☉
+Gas Masses by Hand:		4.68e+05 M☉
+Total Mass by Hand:		1.13e+07 M☉
+Percent Difference:		28%
+
+
+
+---------------  m10r_res250md @ 0.4 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.4: 0.31 kpc at star 479 with mass 81983.22 M☉
+Predicted Total Mass: 1.97e+07 M☉
+
+Star Masses by Hand:		8.20e+04 M☉
+DM Masses by Hand:		1.70e+07 M☉
+Gas Masses by Hand:		6.70e+05 M☉
+Total Mass by Hand:		1.78e+07 M☉
+Percent Difference:		10%
+
+
+
+---------------  m10r_res250md @ 0.5 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.5: 0.4 kpc at star 608 with mass 102605.26 M☉
+Predicted Total Mass: 2.49e+07 M☉
+
+Star Masses by Hand:		1.03e+05 M☉
+DM Masses by Hand:		2.72e+07 M☉
+Gas Masses by Hand:		9.26e+05 M☉
+Total Mass by Hand:		2.83e+07 M☉
+Percent Difference:		13%
+
+
+
+---------------  m10r_res250md @ 0.6 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.6: 0.54 kpc at star 733 with mass 122959.81 M☉
+Predicted Total Mass: 3.69e+07 M☉
+
+Star Masses by Hand:		1.23e+05 M☉
+DM Masses by Hand:		4.62e+07 M☉
+Gas Masses by Hand:		1.27e+06 M☉
+Total Mass by Hand:		4.76e+07 M☉
+Percent Difference:		25%
+
+
+
+---------------  m10r_res250md @ 0.7 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.7: 1.06 kpc at star 865 with mass 143569.73 M☉
+Predicted Total Mass: 7.68e+07 M☉
+
+Star Masses by Hand:		1.44e+05 M☉
+DM Masses by Hand:		1.30e+08 M☉
+Gas Masses by Hand:		1.82e+06 M☉
+Total Mass by Hand:		1.32e+08 M☉
+Percent Difference:		53%
+
+
+
+---------------  m10r_res250md @ 0.8 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.8: 2.32 kpc at star 991 with mass 164028.62 M☉
+Predicted Total Mass: 1.99e+08 M☉
+
+Star Masses by Hand:		1.64e+05 M☉
+DM Masses by Hand:		3.74e+08 M☉
+Gas Masses by Hand:		2.36e+06 M☉
+Total Mass by Hand:		3.77e+08 M☉
+Percent Difference:		62%
+
+
+
+---------------  m10r_res250md @ 0.9 of all star mass  ---------------
+Total Star Mass: 204917.71875 M☉
+r_0.9: 8.3 kpc at star 1115 with mass 184512.93 M☉
+Predicted Total Mass: 7.46e+08 M☉
+
+Star Masses by Hand:		1.85e+05 M☉
+DM Masses by Hand:		1.40e+09 M☉
+Gas Masses by Hand:		4.99e+06 M☉
+Total Mass by Hand:		1.40e+09 M☉
+Percent Difference:		61%
+
+
+
+---------------  m10q_res250md @ 0.1 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.1: 0.24 kpc at star 1525 with mass 281959.81 M☉
+Predicted Total Mass: 1.83e+07 M☉
+
+Star Masses by Hand:		2.82e+05 M☉
+DM Masses by Hand:		5.99e+06 M☉
+Gas Masses by Hand:		0.00e+00 M☉
+Total Mass by Hand:		6.27e+06 M☉
+Percent Difference:		98%
+
+
+
+---------------  m10q_res250md @ 0.2 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.2: 0.35 kpc at star 3081 with mass 563951.86 M☉
+Predicted Total Mass: 2.94e+07 M☉
+
+Star Masses by Hand:		5.64e+05 M☉
+DM Masses by Hand:		1.54e+07 M☉
+Gas Masses by Hand:		0.00e+00 M☉
+Total Mass by Hand:		1.60e+07 M☉
+Percent Difference:		59%
+
+
+
+---------------  m10q_res250md @ 0.3 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.3: 0.46 kpc at star 4640 with mass 845982.34 M☉
+Predicted Total Mass: 3.98e+07 M☉
+
+Star Masses by Hand:		8.46e+05 M☉
+DM Masses by Hand:		2.87e+07 M☉
+Gas Masses by Hand:		5.43e+02 M☉
+Total Mass by Hand:		2.96e+07 M☉
+Percent Difference:		30%
+
+
+
+---------------  m10q_res250md @ 0.4 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.4: 0.58 kpc at star 6212 with mass 1127886.97 M☉
+Predicted Total Mass: 5.15e+07 M☉
+
+Star Masses by Hand:		1.13e+06 M☉
+DM Masses by Hand:		4.65e+07 M☉
+Gas Masses by Hand:		2.16e+03 M☉
+Total Mass by Hand:		4.76e+07 M☉
+Percent Difference:		8%
+
+
+
+---------------  m10q_res250md @ 0.5 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.5: 0.73 kpc at star 7790 with mass 1409763.66 M☉
+Predicted Total Mass: 6.68e+07 M☉
+
+Star Masses by Hand:		1.41e+06 M☉
+DM Masses by Hand:		7.42e+07 M☉
+Gas Masses by Hand:		4.36e+03 M☉
+Total Mass by Hand:		7.57e+07 M☉
+Percent Difference:		12%
+
+
+
+---------------  m10q_res250md @ 0.6 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.6: 0.94 kpc at star 9373 with mass 1691658.67 M☉
+Predicted Total Mass: 9.07e+07 M☉
+
+Star Masses by Hand:		1.69e+06 M☉
+DM Masses by Hand:		1.21e+08 M☉
+Gas Masses by Hand:		4.35e+04 M☉
+Total Mass by Hand:		1.23e+08 M☉
+Percent Difference:		30%
+
+
+
+---------------  m10q_res250md @ 0.7 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.7: 1.29 kpc at star 10950 with mass 1973660.48 M☉
+Predicted Total Mass: 1.30e+08 M☉
+
+Star Masses by Hand:		1.97e+06 M☉
+DM Masses by Hand:		2.06e+08 M☉
+Gas Masses by Hand:		5.63e+05 M☉
+Total Mass by Hand:		2.08e+08 M☉
+Percent Difference:		46%
+
+
+
+---------------  m10q_res250md @ 0.8 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.8: 1.88 kpc at star 12533 with mass 2255544.83 M☉
+Predicted Total Mass: 2.00e+08 M☉
+
+Star Masses by Hand:		2.26e+06 M☉
+DM Masses by Hand:		3.74e+08 M☉
+Gas Masses by Hand:		2.01e+06 M☉
+Total Mass by Hand:		3.78e+08 M☉
+Percent Difference:		62%
+
+
+
+---------------  m10q_res250md @ 0.9 of all star mass  ---------------
+Total Star Mass: 2819384.0 M☉
+r_0.9: 3.47 kpc at star 14102 with mass 2537546.74 M☉
+Predicted Total Mass: 3.97e+08 M☉
+
+Star Masses by Hand:		2.54e+06 M☉
+DM Masses by Hand:		8.70e+08 M☉
+Gas Masses by Hand:		7.04e+06 M☉
+Total Mass by Hand:		8.79e+08 M☉
+Percent Difference:		76%
+
+
+
+---------------  m10v_res250md @ 0.1 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.1: 4.52 kpc at star 80 with mass 15606.63 M☉
+Predicted Total Mass: 1.53e+08 M☉
+
+Star Masses by Hand:		1.56e+04 M☉
+DM Masses by Hand:		3.67e+08 M☉
+Gas Masses by Hand:		1.03e+07 M☉
+Total Mass by Hand:		3.77e+08 M☉
+Percent Difference:		84%
+
+
+
+---------------  m10v_res250md @ 0.2 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.2: 4.62 kpc at star 159 with mass 30974.31 M☉
+Predicted Total Mass: 1.38e+08 M☉
+
+Star Masses by Hand:		3.10e+04 M☉
+DM Masses by Hand:		3.94e+08 M☉
+Gas Masses by Hand:		1.10e+07 M☉
+Total Mass by Hand:		4.05e+08 M☉
+Percent Difference:		98%
+
+
+
+---------------  m10v_res250md @ 0.3 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.3: 4.67 kpc at star 236 with mass 46297.1 M☉
+Predicted Total Mass: 1.27e+08 M☉
+
+Star Masses by Hand:		4.63e+04 M☉
+DM Masses by Hand:		4.10e+08 M☉
+Gas Masses by Hand:		1.14e+07 M☉
+Total Mass by Hand:		4.22e+08 M☉
+Percent Difference:		107%
+
+
+
+---------------  m10v_res250md @ 0.4 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.4: 4.73 kpc at star 314 with mass 61821.52 M☉
+Predicted Total Mass: 1.21e+08 M☉
+
+Star Masses by Hand:		6.18e+04 M☉
+DM Masses by Hand:		4.27e+08 M☉
+Gas Masses by Hand:		1.18e+07 M☉
+Total Mass by Hand:		4.39e+08 M☉
+Percent Difference:		113%
+
+
+
+---------------  m10v_res250md @ 0.5 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.5: 4.78 kpc at star 391 with mass 77164.57 M☉
+Predicted Total Mass: 1.17e+08 M☉
+
+Star Masses by Hand:		7.72e+04 M☉
+DM Masses by Hand:		4.44e+08 M☉
+Gas Masses by Hand:		1.22e+07 M☉
+Total Mass by Hand:		4.57e+08 M☉
+Percent Difference:		118%
+
+
+
+---------------  m10v_res250md @ 0.6 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.6: 4.83 kpc at star 469 with mass 92692.64 M☉
+Predicted Total Mass: 1.11e+08 M☉
+
+Star Masses by Hand:		9.27e+04 M☉
+DM Masses by Hand:		4.58e+08 M☉
+Gas Masses by Hand:		1.25e+07 M☉
+Total Mass by Hand:		4.71e+08 M☉
+Percent Difference:		124%
+
+
+
+---------------  m10v_res250md @ 0.7 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.7: 4.9 kpc at star 547 with mass 108063.45 M☉
+Predicted Total Mass: 1.10e+08 M☉
+
+Star Masses by Hand:		1.08e+05 M☉
+DM Masses by Hand:		4.79e+08 M☉
+Gas Masses by Hand:		1.29e+07 M☉
+Total Mass by Hand:		4.92e+08 M☉
+Percent Difference:		127%
+
+
+
+---------------  m10v_res250md @ 0.8 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.8: 4.99 kpc at star 625 with mass 123476.54 M☉
+Predicted Total Mass: 1.13e+08 M☉
+
+Star Masses by Hand:		1.23e+05 M☉
+DM Masses by Hand:		5.06e+08 M☉
+Gas Masses by Hand:		1.35e+07 M☉
+Total Mass by Hand:		5.19e+08 M☉
+Percent Difference:		129%
+
+
+
+---------------  m10v_res250md @ 0.9 of all star mass  ---------------
+Total Star Mass: 154166.9375 M☉
+r_0.9: 5.15 kpc at star 703 with mass 138796.64 M☉
+Predicted Total Mass: 1.23e+08 M☉
+
+Star Masses by Hand:		1.39e+05 M☉
+DM Masses by Hand:		5.53e+08 M☉
+Gas Masses by Hand:		1.44e+07 M☉
+Total Mass by Hand:		5.67e+08 M☉
+Percent Difference:		129%
+
+
+
