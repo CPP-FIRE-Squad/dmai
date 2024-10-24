@@ -1,5 +1,6 @@
 data
 pickle
 images
+images_og
 .DS_Store
 .venv
