@@ -144,6 +144,9 @@ def graph4(title, Y, Y_pred, c, Y2, Y_pred2, c2):
     plt.legend()
     plt.loglog()
 
+    txt=f"Tested with {len(Y)} stars. The average 2d percent difference is {np.mean(c):.2f}%."
+    plt.figtext(0.5, -0.02, txt, wrap=True, horizontalalignment='center', fontsize=12)
+
     # Graph 2 - Predicted vs Actual 3d
     plt.subplot(1, 2, 2)
     plt.scatter(Y2, Y_pred2, label='Data Points', c=c2, vmin=0, vmax=100)
@@ -158,6 +161,9 @@ def graph4(title, Y, Y_pred, c, Y2, Y_pred2, c2):
     plt.ylabel('Predicted Mass [M☉]')
     plt.legend()
     plt.loglog()
+
+    txt=f"Tested with {len(Y2)} stars. The averag 3D percent difference is {np.mean(c2):.2f}%."
+    plt.figtext(0.5, -0.06, txt, wrap=True, horizontalalignment='center', fontsize=12)
     
     # Save graph
     plt.show()
